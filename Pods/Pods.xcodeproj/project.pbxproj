@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02443B2A07434F04D9C0EAA6CE92E56A /* NextLevel+Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAF3BAB8C1B421012015C578E10919B /* NextLevel+Metadata.swift */; };
+		06A27483799685C6049195DF4C6148D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0881BE4160960D060DFBC1928E748A9C /* Pods-BobaCamTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC994DF4E761B09FDFCA8BA8D06B85B4 /* Pods-BobaCamTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F41DCB97DE47225F33501411E952C6 /* NextLevel+AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6169713690B7649C35918D0D777F1F0C /* NextLevel+AVFoundation.swift */; };
+		49BF7341252D15BD900B6688E753F6CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5CD6E97BAE1E75B247C0C4431FCDAF71 /* NextLevel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DB13C11FAB083945A516608350EFD /* NextLevel+Additions.swift */; };
+		73FCE55A599CCBDDFA274003E4F551E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		84BB1F2CEB9F0CD040A33A277D8319E6 /* Pods-BobaCamUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B6F0C99959739129F80D4071E946F2 /* Pods-BobaCamUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF7AF128ADB461989A6582E9BD39701 /* Pods-BobaCam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F33ACE451829EA1DB11373A527B050D0 /* Pods-BobaCam-dummy.m */; };
+		9E7C2575E0080300FB4CD739E84C63AE /* NextLevelConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BFFD120D53416941F2ACDF4E6A6A5A /* NextLevelConfiguration.swift */; };
+		A06F7A98145C1B583F6B64AC818A27E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A75C2E3A6AFB2B83DDE05BD9ADD5B004 /* NextLevelClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14106EBDDCFCF1DC7C8B631C1875CAD /* NextLevelClip.swift */; };
+		B341DFBB305FB4119695E33A13CABB25 /* NextLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C00FA78E17FC4B0D80EDF332B24301A /* NextLevel.swift */; };
+		C4D854DB961B6F4A7063C33312AAC97E /* NextLevelSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10392931BD1DB61C620E2CFEB4F21D20 /* NextLevelSession.swift */; };
+		C80163970D742618499974D67A3EB3F0 /* Pods-BobaCam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B255813C67F4357A5E0AAF0C3106B6B2 /* Pods-BobaCam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C90FFB2E433D0F793EC26F416A03B86C /* Pods-BobaCamTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B51BC73A8904650F10F35FF888C06 /* Pods-BobaCamTests-dummy.m */; };
+		D17E97D02036D67A20AD481C1BD961CD /* Pods-BobaCamUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5A4738860ACFA2431A0359A6C8995 /* Pods-BobaCamUITests-dummy.m */; };
+		D89EB83D0E0CB8E8532E70F8A63F7DF8 /* NextLevel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A85D17EDF9B8A8D8B23BC494DB0FF4 /* NextLevel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFAE648DF740D38FEAAA8E120F324BF6 /* NextLevel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6D478D8C8B44B13375F811E4C1BBE /* NextLevel-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D784FFA9711EC1E24CA4388A5D09E1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D197B2C24025219EC7A734735525A5;
+			remoteInfo = NextLevel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059228E2FFE0FFF29332E14E8E7D147D /* Pods-BobaCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BobaCam.release.xcconfig"; sourceTree = "<group>"; };
+		07D0DF519EF767FE818B40A7C2119DD8 /* Pods-BobaCamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BobaCamTests.release.xcconfig"; sourceTree = "<group>"; };
+		10392931BD1DB61C620E2CFEB4F21D20 /* NextLevelSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NextLevelSession.swift; path = Sources/NextLevelSession.swift; sourceTree = "<group>"; };
+		120BA2A711D8D76421CA651E72A1423B /* Pods-BobaCamUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BobaCamUITests.modulemap"; sourceTree = "<group>"; };
+		14B5A4738860ACFA2431A0359A6C8995 /* Pods-BobaCamUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BobaCamUITests-dummy.m"; sourceTree = "<group>"; };
+		1565291303594C8D5C76941C637EF4A0 /* Pods-BobaCam-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BobaCam-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AE719A84AD557243B791BCFEDBB9E35 /* Pods-BobaCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BobaCam.debug.xcconfig"; sourceTree = "<group>"; };
+		1AF5C6BCD2F8EC7BE2228E78078A2C6E /* Pods-BobaCam-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BobaCam-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C00FA78E17FC4B0D80EDF332B24301A /* NextLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NextLevel.swift; path = Sources/NextLevel.swift; sourceTree = "<group>"; };
+		1DAF3BAB8C1B421012015C578E10919B /* NextLevel+Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NextLevel+Metadata.swift"; path = "Sources/NextLevel+Metadata.swift"; sourceTree = "<group>"; };
+		23944759994071CA8EC0539B6C44F735 /* NextLevel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NextLevel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CC54B4F738D8FA19B0261A6D894DB9 /* Pods-BobaCamTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BobaCamTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2647A43C1BAEB56ABA54DF480EA7984D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8EE014931C9059A4EDAB3169353963 /* NextLevel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NextLevel-prefix.pch"; sourceTree = "<group>"; };
+		2E0D842B8729B94F6063C4B503C64145 /* Pods-BobaCamUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BobaCamUITests-resources.sh"; sourceTree = "<group>"; };
+		33CDEF8CE626FBDFB8AAE51E85E6198B /* NextLevel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NextLevel.modulemap; sourceTree = "<group>"; };
+		35FC494BF33DFCCBD39A860555358335 /* Pods-BobaCamUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BobaCamUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		476490F7FC583BA639855AB9C63E6170 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C80BBAD298ECA83B254CE9FC15AE914 /* Pods_BobaCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BobaCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5568DDE0F9704B042F15D47079F95559 /* Pods-BobaCam-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BobaCam-resources.sh"; sourceTree = "<group>"; };
+		6169713690B7649C35918D0D777F1F0C /* NextLevel+AVFoundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NextLevel+AVFoundation.swift"; path = "Sources/NextLevel+AVFoundation.swift"; sourceTree = "<group>"; };
+		6A2B51BC73A8904650F10F35FF888C06 /* Pods-BobaCamTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BobaCamTests-dummy.m"; sourceTree = "<group>"; };
+		6D1E8563A699023CA77ED9F556D1D10B /* Pods_BobaCamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BobaCamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F08232A29F2D13C02738399F852AF87 /* Pods-BobaCamTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BobaCamTests-resources.sh"; sourceTree = "<group>"; };
+		7B1224343A5D6ECFEC3F770A2D07C24F /* Pods-BobaCamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BobaCamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E5DB13C11FAB083945A516608350EFD /* NextLevel+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NextLevel+Additions.swift"; path = "Sources/NextLevel+Additions.swift"; sourceTree = "<group>"; };
+		86B6F0C99959739129F80D4071E946F2 /* Pods-BobaCamUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BobaCamUITests-umbrella.h"; sourceTree = "<group>"; };
+		916CFCA82606F65AC230751F45B2576D /* Pods-BobaCamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BobaCamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95BFFD120D53416941F2ACDF4E6A6A5A /* NextLevelConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NextLevelConfiguration.swift; path = Sources/NextLevelConfiguration.swift; sourceTree = "<group>"; };
+		9665605E9FF23013E25EDE887D4D4A56 /* Pods-BobaCam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BobaCam.modulemap"; sourceTree = "<group>"; };
+		9DA727BBA11C6259E0CD48A841340710 /* Pods_BobaCamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BobaCamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC6D478D8C8B44B13375F811E4C1BBE /* NextLevel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NextLevel-dummy.m"; sourceTree = "<group>"; };
+		A1E854048D5497FDF451050B41C0EDBB /* Pods-BobaCamUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BobaCamUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4DBDAAF287128B46A6373F7494A2151 /* Pods-BobaCamUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BobaCamUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B255813C67F4357A5E0AAF0C3106B6B2 /* Pods-BobaCam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BobaCam-umbrella.h"; sourceTree = "<group>"; };
+		B6A85D17EDF9B8A8D8B23BC494DB0FF4 /* NextLevel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NextLevel-umbrella.h"; sourceTree = "<group>"; };
+		B71EF7E1448075C2EC53CDB9E505D067 /* NextLevel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NextLevel.xcconfig; sourceTree = "<group>"; };
+		B8C0829DB1FB8FD208599E27F0E5659B /* Pods-BobaCamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BobaCamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCB6F9A540B52E296F9EAD198036E55C /* Pods-BobaCamTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BobaCamTests.modulemap"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D14106EBDDCFCF1DC7C8B631C1875CAD /* NextLevelClip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NextLevelClip.swift; path = Sources/NextLevelClip.swift; sourceTree = "<group>"; };
+		D980D8E9BC25183B68DE0DCEC5C55530 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E56CC0EBD710679D807673167C6BEE /* Pods-BobaCamTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BobaCamTests-frameworks.sh"; sourceTree = "<group>"; };
+		EC994DF4E761B09FDFCA8BA8D06B85B4 /* Pods-BobaCamTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BobaCamTests-umbrella.h"; sourceTree = "<group>"; };
+		F33ACE451829EA1DB11373A527B050D0 /* Pods-BobaCam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BobaCam-dummy.m"; sourceTree = "<group>"; };
+		F3846108FE32B9FD21C2A29329736C0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B2402CE34A3102DF6BC80F27E22F36 /* Pods-BobaCam-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BobaCam-frameworks.sh"; sourceTree = "<group>"; };
+		FF4952C58441E64024531D4F1EF9C6C7 /* Pods-BobaCamTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BobaCamTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF34E9BF99D667E9959CDB32ED3C90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BF7341252D15BD900B6688E753F6CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56852DE32112C21E87A553E4DCE38DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A27483799685C6049195DF4C6148D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA43F15F790E310186A2411A88AC9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FCE55A599CCBDDFA274003E4F551E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F286EBC1A6861AB36B5F59BC5EE32BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06F7A98145C1B583F6B64AC818A27E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A81496F236D021523868AF6914FBE74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				476490F7FC583BA639855AB9C63E6170 /* Info.plist */,
+				33CDEF8CE626FBDFB8AAE51E85E6198B /* NextLevel.modulemap */,
+				B71EF7E1448075C2EC53CDB9E505D067 /* NextLevel.xcconfig */,
+				9EC6D478D8C8B44B13375F811E4C1BBE /* NextLevel-dummy.m */,
+				2C8EE014931C9059A4EDAB3169353963 /* NextLevel-prefix.pch */,
+				B6A85D17EDF9B8A8D8B23BC494DB0FF4 /* NextLevel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NextLevel";
+			sourceTree = "<group>";
+		};
+		1B68C1D22A2CB9BD56C02FC60465A99F /* Pods-BobaCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				2647A43C1BAEB56ABA54DF480EA7984D /* Info.plist */,
+				BCB6F9A540B52E296F9EAD198036E55C /* Pods-BobaCamTests.modulemap */,
+				FF4952C58441E64024531D4F1EF9C6C7 /* Pods-BobaCamTests-acknowledgements.markdown */,
+				25CC54B4F738D8FA19B0261A6D894DB9 /* Pods-BobaCamTests-acknowledgements.plist */,
+				6A2B51BC73A8904650F10F35FF888C06 /* Pods-BobaCamTests-dummy.m */,
+				E0E56CC0EBD710679D807673167C6BEE /* Pods-BobaCamTests-frameworks.sh */,
+				6F08232A29F2D13C02738399F852AF87 /* Pods-BobaCamTests-resources.sh */,
+				EC994DF4E761B09FDFCA8BA8D06B85B4 /* Pods-BobaCamTests-umbrella.h */,
+				7B1224343A5D6ECFEC3F770A2D07C24F /* Pods-BobaCamTests.debug.xcconfig */,
+				07D0DF519EF767FE818B40A7C2119DD8 /* Pods-BobaCamTests.release.xcconfig */,
+			);
+			name = "Pods-BobaCamTests";
+			path = "Target Support Files/Pods-BobaCamTests";
+			sourceTree = "<group>";
+		};
+		2C0C87260F5B3E5D4ADF2635C8613697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EEB96208E1CA9AF522F8497F6771E29 /* NextLevel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2C0C87260F5B3E5D4ADF2635C8613697 /* Pods */,
+				F4AF4AB2E21C440BF91CBAB115E1F440 /* Products */,
+				F0AD5B2D8DD0A0751525485CD05E5964 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EEB96208E1CA9AF522F8497F6771E29 /* NextLevel */ = {
+			isa = PBXGroup;
+			children = (
+				1C00FA78E17FC4B0D80EDF332B24301A /* NextLevel.swift */,
+				7E5DB13C11FAB083945A516608350EFD /* NextLevel+Additions.swift */,
+				6169713690B7649C35918D0D777F1F0C /* NextLevel+AVFoundation.swift */,
+				1DAF3BAB8C1B421012015C578E10919B /* NextLevel+Metadata.swift */,
+				D14106EBDDCFCF1DC7C8B631C1875CAD /* NextLevelClip.swift */,
+				95BFFD120D53416941F2ACDF4E6A6A5A /* NextLevelConfiguration.swift */,
+				10392931BD1DB61C620E2CFEB4F21D20 /* NextLevelSession.swift */,
+				1A81496F236D021523868AF6914FBE74 /* Support Files */,
+			);
+			path = NextLevel;
+			sourceTree = "<group>";
+		};
+		A808B895A0063C8CFC5631A53A57F0A8 /* Pods-BobaCam */ = {
+			isa = PBXGroup;
+			children = (
+				D980D8E9BC25183B68DE0DCEC5C55530 /* Info.plist */,
+				9665605E9FF23013E25EDE887D4D4A56 /* Pods-BobaCam.modulemap */,
+				1565291303594C8D5C76941C637EF4A0 /* Pods-BobaCam-acknowledgements.markdown */,
+				1AF5C6BCD2F8EC7BE2228E78078A2C6E /* Pods-BobaCam-acknowledgements.plist */,
+				F33ACE451829EA1DB11373A527B050D0 /* Pods-BobaCam-dummy.m */,
+				F3B2402CE34A3102DF6BC80F27E22F36 /* Pods-BobaCam-frameworks.sh */,
+				5568DDE0F9704B042F15D47079F95559 /* Pods-BobaCam-resources.sh */,
+				B255813C67F4357A5E0AAF0C3106B6B2 /* Pods-BobaCam-umbrella.h */,
+				1AE719A84AD557243B791BCFEDBB9E35 /* Pods-BobaCam.debug.xcconfig */,
+				059228E2FFE0FFF29332E14E8E7D147D /* Pods-BobaCam.release.xcconfig */,
+			);
+			name = "Pods-BobaCam";
+			path = "Target Support Files/Pods-BobaCam";
+			sourceTree = "<group>";
+		};
+		ACC797AA2321165159B0F3D7EE2B2792 /* Pods-BobaCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3846108FE32B9FD21C2A29329736C0B /* Info.plist */,
+				120BA2A711D8D76421CA651E72A1423B /* Pods-BobaCamUITests.modulemap */,
+				A1E854048D5497FDF451050B41C0EDBB /* Pods-BobaCamUITests-acknowledgements.markdown */,
+				35FC494BF33DFCCBD39A860555358335 /* Pods-BobaCamUITests-acknowledgements.plist */,
+				14B5A4738860ACFA2431A0359A6C8995 /* Pods-BobaCamUITests-dummy.m */,
+				A4DBDAAF287128B46A6373F7494A2151 /* Pods-BobaCamUITests-frameworks.sh */,
+				2E0D842B8729B94F6063C4B503C64145 /* Pods-BobaCamUITests-resources.sh */,
+				86B6F0C99959739129F80D4071E946F2 /* Pods-BobaCamUITests-umbrella.h */,
+				916CFCA82606F65AC230751F45B2576D /* Pods-BobaCamUITests.debug.xcconfig */,
+				B8C0829DB1FB8FD208599E27F0E5659B /* Pods-BobaCamUITests.release.xcconfig */,
+			);
+			name = "Pods-BobaCamUITests";
+			path = "Target Support Files/Pods-BobaCamUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0AD5B2D8DD0A0751525485CD05E5964 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A808B895A0063C8CFC5631A53A57F0A8 /* Pods-BobaCam */,
+				1B68C1D22A2CB9BD56C02FC60465A99F /* Pods-BobaCamTests */,
+				ACC797AA2321165159B0F3D7EE2B2792 /* Pods-BobaCamUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4AF4AB2E21C440BF91CBAB115E1F440 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23944759994071CA8EC0539B6C44F735 /* NextLevel.framework */,
+				4C80BBAD298ECA83B254CE9FC15AE914 /* Pods_BobaCam.framework */,
+				6D1E8563A699023CA77ED9F556D1D10B /* Pods_BobaCamTests.framework */,
+				9DA727BBA11C6259E0CD48A841340710 /* Pods_BobaCamUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12F0D624076D5497F35B637FFDADB111 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80163970D742618499974D67A3EB3F0 /* Pods-BobaCam-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C8873A75A0BAD1CFA3ACCEE12B1B7B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0881BE4160960D060DFBC1928E748A9C /* Pods-BobaCamTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D1A64EAE81CE8FFB12C027C623C161 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89EB83D0E0CB8E8532E70F8A63F7DF8 /* NextLevel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750662FEA0B2C8CA3B3AC708B09CEE22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB1F2CEB9F0CD040A33A277D8319E6 /* Pods-BobaCamUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26D197B2C24025219EC7A734735525A5 /* NextLevel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F0F5EC584F253FAF77DA1BD1214038E /* Build configuration list for PBXNativeTarget "NextLevel" */;
+			buildPhases = (
+				074D9B72E1A04782CC3AFD0E79DE3FC4 /* Sources */,
+				F286EBC1A6861AB36B5F59BC5EE32BC8 /* Frameworks */,
+				53D1A64EAE81CE8FFB12C027C623C161 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextLevel;
+			productName = NextLevel;
+			productReference = 23944759994071CA8EC0539B6C44F735 /* NextLevel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35B63F22B9E25EB2D5CAB181D1FFBDD7 /* Pods-BobaCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3867CB66DA27AA416B1B51A0EE3F4F /* Build configuration list for PBXNativeTarget "Pods-BobaCamTests" */;
+			buildPhases = (
+				4FD4A16B9D9FAD68F7CD7FD6F2B0640D /* Sources */,
+				56852DE32112C21E87A553E4DCE38DE9 /* Frameworks */,
+				1C8873A75A0BAD1CFA3ACCEE12B1B7B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BobaCamTests";
+			productName = "Pods-BobaCamTests";
+			productReference = 6D1E8563A699023CA77ED9F556D1D10B /* Pods_BobaCamTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B42DD4DC0520B86A5080E426A5D5D90 /* Pods-BobaCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B141E5A5D01C3F35441329056DF204 /* Build configuration list for PBXNativeTarget "Pods-BobaCamUITests" */;
+			buildPhases = (
+				65F098992F25C92BFE0ED4986B673849 /* Sources */,
+				CBA43F15F790E310186A2411A88AC9BE /* Frameworks */,
+				750662FEA0B2C8CA3B3AC708B09CEE22 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BobaCamUITests";
+			productName = "Pods-BobaCamUITests";
+			productReference = 9DA727BBA11C6259E0CD48A841340710 /* Pods_BobaCamUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BE3AE5E4E10C4ADAAD117C9438DA844 /* Pods-BobaCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1EC93C4607B87D9505B56056D772691 /* Build configuration list for PBXNativeTarget "Pods-BobaCam" */;
+			buildPhases = (
+				1B82E4C20C3202001B283A43EDF41A5F /* Sources */,
+				0AF34E9BF99D667E9959CDB32ED3C90C /* Frameworks */,
+				12F0D624076D5497F35B637FFDADB111 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8BCE35A0AE2ED4D29936AC481F37889 /* PBXTargetDependency */,
+			);
+			name = "Pods-BobaCam";
+			productName = "Pods-BobaCam";
+			productReference = 4C80BBAD298ECA83B254CE9FC15AE914 /* Pods_BobaCam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F4AF4AB2E21C440BF91CBAB115E1F440 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D197B2C24025219EC7A734735525A5 /* NextLevel */,
+				8BE3AE5E4E10C4ADAAD117C9438DA844 /* Pods-BobaCam */,
+				35B63F22B9E25EB2D5CAB181D1FFBDD7 /* Pods-BobaCamTests */,
+				8B42DD4DC0520B86A5080E426A5D5D90 /* Pods-BobaCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074D9B72E1A04782CC3AFD0E79DE3FC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD6E97BAE1E75B247C0C4431FCDAF71 /* NextLevel+Additions.swift in Sources */,
+				22F41DCB97DE47225F33501411E952C6 /* NextLevel+AVFoundation.swift in Sources */,
+				02443B2A07434F04D9C0EAA6CE92E56A /* NextLevel+Metadata.swift in Sources */,
+				DFAE648DF740D38FEAAA8E120F324BF6 /* NextLevel-dummy.m in Sources */,
+				B341DFBB305FB4119695E33A13CABB25 /* NextLevel.swift in Sources */,
+				A75C2E3A6AFB2B83DDE05BD9ADD5B004 /* NextLevelClip.swift in Sources */,
+				9E7C2575E0080300FB4CD739E84C63AE /* NextLevelConfiguration.swift in Sources */,
+				C4D854DB961B6F4A7063C33312AAC97E /* NextLevelSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B82E4C20C3202001B283A43EDF41A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF7AF128ADB461989A6582E9BD39701 /* Pods-BobaCam-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD4A16B9D9FAD68F7CD7FD6F2B0640D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90FFB2E433D0F793EC26F416A03B86C /* Pods-BobaCamTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F098992F25C92BFE0ED4986B673849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17E97D02036D67A20AD481C1BD961CD /* Pods-BobaCamUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8BCE35A0AE2ED4D29936AC481F37889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NextLevel;
+			target = 26D197B2C24025219EC7A734735525A5 /* NextLevel */;
+			targetProxy = D784FFA9711EC1E24CA4388A5D09E1DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12BDFCDC3238F9E1757DEC399288DE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059228E2FFE0FFF29332E14E8E7D147D /* Pods-BobaCam.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BobaCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BobaCam/Pods-BobaCam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BobaCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		575CEBA26DEA6AE9F8C9DEBE9709DBE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71EF7E1448075C2EC53CDB9E505D067 /* NextLevel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NextLevel/NextLevel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NextLevel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NextLevel/NextLevel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NextLevel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82B721D96E1B2AF66878652A38EC2479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D0DF519EF767FE818B40A7C2119DD8 /* Pods-BobaCamTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BobaCamTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BobaCamTests/Pods-BobaCamTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BobaCamTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E29436AB340788502E72EC2EE25B81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C0829DB1FB8FD208599E27F0E5659B /* Pods-BobaCamUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BobaCamUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BobaCamUITests/Pods-BobaCamUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BobaCamUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3E2846A423C7C533774B58A6AD49366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1224343A5D6ECFEC3F770A2D07C24F /* Pods-BobaCamTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BobaCamTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BobaCamTests/Pods-BobaCamTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BobaCamTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B08E040E0A702D6160F606A78B6E1AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916CFCA82606F65AC230751F45B2576D /* Pods-BobaCamUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BobaCamUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BobaCamUITests/Pods-BobaCamUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BobaCamUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6528DFFE0CE134A5060531CDB00806A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71EF7E1448075C2EC53CDB9E505D067 /* NextLevel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NextLevel/NextLevel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NextLevel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NextLevel/NextLevel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NextLevel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D3A6AE49471362CED6BE41A9DCB9254E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE719A84AD557243B791BCFEDBB9E35 /* Pods-BobaCam.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BobaCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BobaCam/Pods-BobaCam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BobaCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B141E5A5D01C3F35441329056DF204 /* Build configuration list for PBXNativeTarget "Pods-BobaCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08E040E0A702D6160F606A78B6E1AF0 /* Debug */,
+				9E29436AB340788502E72EC2EE25B81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F0F5EC584F253FAF77DA1BD1214038E /* Build configuration list for PBXNativeTarget "NextLevel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6528DFFE0CE134A5060531CDB00806A /* Debug */,
+				575CEBA26DEA6AE9F8C9DEBE9709DBE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1EC93C4607B87D9505B56056D772691 /* Build configuration list for PBXNativeTarget "Pods-BobaCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A6AE49471362CED6BE41A9DCB9254E /* Debug */,
+				12BDFCDC3238F9E1757DEC399288DE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3867CB66DA27AA416B1B51A0EE3F4F /* Build configuration list for PBXNativeTarget "Pods-BobaCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E2846A423C7C533774B58A6AD49366 /* Debug */,
+				82B721D96E1B2AF66878652A38EC2479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

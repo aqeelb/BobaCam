@@ -1,0 +1,6 @@
+framework module Pods_BobaCamTests {
+  umbrella header "Pods-BobaCamTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TsM-0e-5qX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="Xrn-M5-Adz">
+            <objects>
+                <viewController id="TsM-0e-5qX" customClass="CameraViewController" customModule="BobaCam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xqm-2d-YgM"/>
+                        <viewControllerLayoutGuide type="bottom" id="7FT-ro-FYy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vhw-ew-EHD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yXi-Mg-GkQ">
+                                <rect key="frame" x="16" y="597" width="62" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.071752450640000007" green="0.58659064439999997" blue="0.34071118880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.74901962280000001" green="0.0" blue="0.33725491169999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6E-cX-ycf">
+                                <rect key="frame" x="156" y="597" width="62" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="i1t-Jb-l3T"/>
+                                    <constraint firstAttribute="height" constant="62" id="tg0-8u-boy"/>
+                                </constraints>
+                                <color key="tintColor" red="0.74901962280000001" green="0.0" blue="0.33725491169999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="record_button"/>
+                                <connections>
+                                    <action selector="didPressCapture:" destination="TsM-0e-5qX" eventType="touchUpInside" id="N08-rl-Nmp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="S6E-cX-ycf" firstAttribute="centerX" secondItem="Vhw-ew-EHD" secondAttribute="centerX" id="JD0-nF-RBk"/>
+                            <constraint firstItem="S6E-cX-ycf" firstAttribute="centerY" secondItem="Vhw-ew-EHD" secondAttribute="centerY" constant="294.5" id="SCW-iJ-2tl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="capturedImage" destination="yXi-Mg-GkQ" id="xlJ-fJ-9mW"/>
+                        <outlet property="previewView" destination="Vhw-ew-EHD" id="4oJ-Vv-iot"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0qq-8y-U8y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175.19999999999999" y="-281.10944527736132"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="record_button" width="50" height="50"/>
+    </resources>
+</document>

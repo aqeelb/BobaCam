@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145A600CA60BB1AC98A955DF /* Pods_BobaCamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2F04F1933DBE5DAE4F8164 /* Pods_BobaCamUITests.framework */; };
+		420B145801324A3097E63DCF /* Pods_BobaCamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73891B08659CD87E1F997EF0 /* Pods_BobaCamTests.framework */; };
+		70EABED81DC1F366003D12AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EABED71DC1F366003D12AC /* AppDelegate.swift */; };
+		70EABEE11DC1F366003D12AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EABEDF1DC1F366003D12AC /* Main.storyboard */; };
+		70EABEE31DC1F366003D12AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70EABEE21DC1F366003D12AC /* Assets.xcassets */; };
+		70EABEE61DC1F366003D12AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EABEE41DC1F366003D12AC /* LaunchScreen.storyboard */; };
+		70EABEF11DC1F366003D12AC /* BobaCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EABEF01DC1F366003D12AC /* BobaCamTests.swift */; };
+		70EABEFC1DC1F366003D12AC /* BobaCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EABEFB1DC1F366003D12AC /* BobaCamUITests.swift */; };
+		70EABF0A1DC1F484003D12AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EABF091DC1F484003D12AC /* ViewController.swift */; };
+		D92015EF4BD4BA71B4F3D251 /* Pods_BobaCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048E5093DF5C4F829076799D /* Pods_BobaCam.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70EABEED1DC1F366003D12AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70EABECC1DC1F366003D12AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70EABED31DC1F366003D12AC;
+			remoteInfo = BobaCam;
+		};
+		70EABEF81DC1F366003D12AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70EABECC1DC1F366003D12AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70EABED31DC1F366003D12AC;
+			remoteInfo = BobaCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048E5093DF5C4F829076799D /* Pods_BobaCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BobaCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3C770BBD676C0FE5507171 /* Pods-BobaCamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BobaCamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BobaCamUITests/Pods-BobaCamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AC2C099B009D21AD6CC4DD9 /* Pods-BobaCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BobaCam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BobaCam/Pods-BobaCam.debug.xcconfig"; sourceTree = "<group>"; };
+		56B65D3A258F271D0966F447 /* Pods-BobaCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BobaCam.release.xcconfig"; path = "Pods/Target Support Files/Pods-BobaCam/Pods-BobaCam.release.xcconfig"; sourceTree = "<group>"; };
+		580C1052BC9267B5E78F248E /* Pods-BobaCamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BobaCamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BobaCamTests/Pods-BobaCamTests.release.xcconfig"; sourceTree = "<group>"; };
+		70EABED41DC1F366003D12AC /* BobaCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BobaCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EABED71DC1F366003D12AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70EABEE01DC1F366003D12AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70EABEE21DC1F366003D12AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70EABEE51DC1F366003D12AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70EABEE71DC1F366003D12AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EABEEC1DC1F366003D12AC /* BobaCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobaCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EABEF01DC1F366003D12AC /* BobaCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaCamTests.swift; sourceTree = "<group>"; };
+		70EABEF21DC1F366003D12AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EABEF71DC1F366003D12AC /* BobaCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobaCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EABEFB1DC1F366003D12AC /* BobaCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaCamUITests.swift; sourceTree = "<group>"; };
+		70EABEFD1DC1F366003D12AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EABF091DC1F484003D12AC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73891B08659CD87E1F997EF0 /* Pods_BobaCamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BobaCamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85458CF0610339175F41F85A /* Pods-BobaCamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BobaCamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BobaCamTests/Pods-BobaCamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98CE6E44A32B0469E9A5CC61 /* Pods-BobaCamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BobaCamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BobaCamUITests/Pods-BobaCamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF2F04F1933DBE5DAE4F8164 /* Pods_BobaCamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BobaCamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70EABED11DC1F366003D12AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92015EF4BD4BA71B4F3D251 /* Pods_BobaCam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EABEE91DC1F366003D12AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420B145801324A3097E63DCF /* Pods_BobaCamTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EABEF41DC1F366003D12AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145A600CA60BB1AC98A955DF /* Pods_BobaCamUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3907A2D7D555819A4CE86ABD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AC2C099B009D21AD6CC4DD9 /* Pods-BobaCam.debug.xcconfig */,
+				56B65D3A258F271D0966F447 /* Pods-BobaCam.release.xcconfig */,
+				85458CF0610339175F41F85A /* Pods-BobaCamTests.debug.xcconfig */,
+				580C1052BC9267B5E78F248E /* Pods-BobaCamTests.release.xcconfig */,
+				98CE6E44A32B0469E9A5CC61 /* Pods-BobaCamUITests.debug.xcconfig */,
+				1F3C770BBD676C0FE5507171 /* Pods-BobaCamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46FBDB954F8D24BD4D9166E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048E5093DF5C4F829076799D /* Pods_BobaCam.framework */,
+				73891B08659CD87E1F997EF0 /* Pods_BobaCamTests.framework */,
+				EF2F04F1933DBE5DAE4F8164 /* Pods_BobaCamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70EABECB1DC1F366003D12AC = {
+			isa = PBXGroup;
+			children = (
+				70EABED61DC1F366003D12AC /* BobaCam */,
+				70EABEEF1DC1F366003D12AC /* BobaCamTests */,
+				70EABEFA1DC1F366003D12AC /* BobaCamUITests */,
+				70EABED51DC1F366003D12AC /* Products */,
+				3907A2D7D555819A4CE86ABD /* Pods */,
+				46FBDB954F8D24BD4D9166E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70EABED51DC1F366003D12AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70EABED41DC1F366003D12AC /* BobaCam.app */,
+				70EABEEC1DC1F366003D12AC /* BobaCamTests.xctest */,
+				70EABEF71DC1F366003D12AC /* BobaCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70EABED61DC1F366003D12AC /* BobaCam */ = {
+			isa = PBXGroup;
+			children = (
+				70EABED71DC1F366003D12AC /* AppDelegate.swift */,
+				70EABEDF1DC1F366003D12AC /* Main.storyboard */,
+				70EABEE21DC1F366003D12AC /* Assets.xcassets */,
+				70EABEE41DC1F366003D12AC /* LaunchScreen.storyboard */,
+				70EABEE71DC1F366003D12AC /* Info.plist */,
+				70EABF091DC1F484003D12AC /* ViewController.swift */,
+			);
+			path = BobaCam;
+			sourceTree = "<group>";
+		};
+		70EABEEF1DC1F366003D12AC /* BobaCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				70EABEF01DC1F366003D12AC /* BobaCamTests.swift */,
+				70EABEF21DC1F366003D12AC /* Info.plist */,
+			);
+			path = BobaCamTests;
+			sourceTree = "<group>";
+		};
+		70EABEFA1DC1F366003D12AC /* BobaCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70EABEFB1DC1F366003D12AC /* BobaCamUITests.swift */,
+				70EABEFD1DC1F366003D12AC /* Info.plist */,
+			);
+			path = BobaCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70EABED31DC1F366003D12AC /* BobaCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EABF001DC1F366003D12AC /* Build configuration list for PBXNativeTarget "BobaCam" */;
+			buildPhases = (
+				12A659A524CA18FC6D28B904 /* [CP] Check Pods Manifest.lock */,
+				70EABED01DC1F366003D12AC /* Sources */,
+				70EABED11DC1F366003D12AC /* Frameworks */,
+				70EABED21DC1F366003D12AC /* Resources */,
+				88C43055B6CBEF29C1B1A067 /* [CP] Embed Pods Frameworks */,
+				3B8FB66EE60771A6CB295780 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BobaCam;
+			productName = BobaCam;
+			productReference = 70EABED41DC1F366003D12AC /* BobaCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70EABEEB1DC1F366003D12AC /* BobaCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EABF031DC1F366003D12AC /* Build configuration list for PBXNativeTarget "BobaCamTests" */;
+			buildPhases = (
+				956C7D49D7E13BD49D61C881 /* [CP] Check Pods Manifest.lock */,
+				70EABEE81DC1F366003D12AC /* Sources */,
+				70EABEE91DC1F366003D12AC /* Frameworks */,
+				70EABEEA1DC1F366003D12AC /* Resources */,
+				E94A4E365A2FA8D734BF5831 /* [CP] Embed Pods Frameworks */,
+				423B3CC1288BF1059E8AF5A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EABEEE1DC1F366003D12AC /* PBXTargetDependency */,
+			);
+			name = BobaCamTests;
+			productName = BobaCamTests;
+			productReference = 70EABEEC1DC1F366003D12AC /* BobaCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70EABEF61DC1F366003D12AC /* BobaCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70EABF061DC1F366003D12AC /* Build configuration list for PBXNativeTarget "BobaCamUITests" */;
+			buildPhases = (
+				92F22D375BECAF6DE0BDAD06 /* [CP] Check Pods Manifest.lock */,
+				70EABEF31DC1F366003D12AC /* Sources */,
+				70EABEF41DC1F366003D12AC /* Frameworks */,
+				70EABEF51DC1F366003D12AC /* Resources */,
+				1A9AB37B7A49AA3A09E06DBE /* [CP] Embed Pods Frameworks */,
+				591057D58BF6B6E45E9EA4BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EABEF91DC1F366003D12AC /* PBXTargetDependency */,
+			);
+			name = BobaCamUITests;
+			productName = BobaCamUITests;
+			productReference = 70EABEF71DC1F366003D12AC /* BobaCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70EABECC1DC1F366003D12AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "PIXERF PTE LTD";
+				TargetAttributes = {
+					70EABED31DC1F366003D12AC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PXNA26GUVR;
+						ProvisioningStyle = Automatic;
+					};
+					70EABEEB1DC1F366003D12AC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PXNA26GUVR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70EABED31DC1F366003D12AC;
+					};
+					70EABEF61DC1F366003D12AC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PXNA26GUVR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70EABED31DC1F366003D12AC;
+					};
+				};
+			};
+			buildConfigurationList = 70EABECF1DC1F366003D12AC /* Build configuration list for PBXProject "BobaCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70EABECB1DC1F366003D12AC;
+			productRefGroup = 70EABED51DC1F366003D12AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70EABED31DC1F366003D12AC /* BobaCam */,
+				70EABEEB1DC1F366003D12AC /* BobaCamTests */,
+				70EABEF61DC1F366003D12AC /* BobaCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70EABED21DC1F366003D12AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EABEE61DC1F366003D12AC /* LaunchScreen.storyboard in Resources */,
+				70EABEE31DC1F366003D12AC /* Assets.xcassets in Resources */,
+				70EABEE11DC1F366003D12AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EABEEA1DC1F366003D12AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EABEF51DC1F366003D12AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12A659A524CA18FC6D28B904 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A9AB37B7A49AA3A09E06DBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BobaCamUITests/Pods-BobaCamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B8FB66EE60771A6CB295780 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BobaCam/Pods-BobaCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		423B3CC1288BF1059E8AF5A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BobaCamTests/Pods-BobaCamTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		591057D58BF6B6E45E9EA4BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BobaCamUITests/Pods-BobaCamUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88C43055B6CBEF29C1B1A067 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BobaCam/Pods-BobaCam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F22D375BECAF6DE0BDAD06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		956C7D49D7E13BD49D61C881 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E94A4E365A2FA8D734BF5831 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BobaCamTests/Pods-BobaCamTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70EABED01DC1F366003D12AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EABF0A1DC1F484003D12AC /* ViewController.swift in Sources */,
+				70EABED81DC1F366003D12AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EABEE81DC1F366003D12AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EABEF11DC1F366003D12AC /* BobaCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EABEF31DC1F366003D12AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EABEFC1DC1F366003D12AC /* BobaCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70EABEEE1DC1F366003D12AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70EABED31DC1F366003D12AC /* BobaCam */;
+			targetProxy = 70EABEED1DC1F366003D12AC /* PBXContainerItemProxy */;
+		};
+		70EABEF91DC1F366003D12AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70EABED31DC1F366003D12AC /* BobaCam */;
+			targetProxy = 70EABEF81DC1F366003D12AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70EABEDF1DC1F366003D12AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70EABEE01DC1F366003D12AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70EABEE41DC1F366003D12AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70EABEE51DC1F366003D12AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70EABEFE1DC1F366003D12AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70EABEFF1DC1F366003D12AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70EABF011DC1F366003D12AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC2C099B009D21AD6CC4DD9 /* Pods-BobaCam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PXNA26GUVR;
+				INFOPLIST_FILE = BobaCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixerf.BobaCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		70EABF021DC1F366003D12AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B65D3A258F271D0966F447 /* Pods-BobaCam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PXNA26GUVR;
+				INFOPLIST_FILE = BobaCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixerf.BobaCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		70EABF041DC1F366003D12AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85458CF0610339175F41F85A /* Pods-BobaCamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PXNA26GUVR;
+				INFOPLIST_FILE = BobaCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixerf.BobaCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BobaCam.app/BobaCam";
+			};
+			name = Debug;
+		};
+		70EABF051DC1F366003D12AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580C1052BC9267B5E78F248E /* Pods-BobaCamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PXNA26GUVR;
+				INFOPLIST_FILE = BobaCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixerf.BobaCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BobaCam.app/BobaCam";
+			};
+			name = Release;
+		};
+		70EABF071DC1F366003D12AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CE6E44A32B0469E9A5CC61 /* Pods-BobaCamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PXNA26GUVR;
+				INFOPLIST_FILE = BobaCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixerf.BobaCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BobaCam;
+			};
+			name = Debug;
+		};
+		70EABF081DC1F366003D12AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3C770BBD676C0FE5507171 /* Pods-BobaCamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PXNA26GUVR;
+				INFOPLIST_FILE = BobaCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixerf.BobaCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BobaCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70EABECF1DC1F366003D12AC /* Build configuration list for PBXProject "BobaCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EABEFE1DC1F366003D12AC /* Debug */,
+				70EABEFF1DC1F366003D12AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EABF001DC1F366003D12AC /* Build configuration list for PBXNativeTarget "BobaCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EABF011DC1F366003D12AC /* Debug */,
+				70EABF021DC1F366003D12AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EABF031DC1F366003D12AC /* Build configuration list for PBXNativeTarget "BobaCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EABF041DC1F366003D12AC /* Debug */,
+				70EABF051DC1F366003D12AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70EABF061DC1F366003D12AC /* Build configuration list for PBXNativeTarget "BobaCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EABF071DC1F366003D12AC /* Debug */,
+				70EABF081DC1F366003D12AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70EABECC1DC1F366003D12AC /* Project object */;
+}
