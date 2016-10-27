@@ -1,6 +1,0 @@
-framework module Pods_BobaCamUITests {
-  umbrella header "Pods-BobaCamUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
